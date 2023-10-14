@@ -6,7 +6,7 @@ const sec = 1; // 1 sec
 const difference = seconds - hour_secs; // 3661 - 3600 = 61
 const difference2 = difference - sec; // 61 - 1 = 60
 
-const final_hour = hour_secs/hour/60
+const final_hour = hour_secs/hour/60;
 const final_minute = seconds - hour_secs - minute;
 const final_sec = seconds - hour_secs - minute;
-console.log(`Время: ${final_hour} ч ${final_minute} мин ${final_sec} сек`)
+console.log(`Время: ${final_hour} ч ${final_minute} мин ${final_sec} сек`);
